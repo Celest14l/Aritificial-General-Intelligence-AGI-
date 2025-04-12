@@ -1,0 +1,1 @@
+2025-04-12 00:24:07: ConnectionError fetching news for 'alright tell me some  on Spring season' from http://localhost:5000/news. Is it running?

@@ -1,0 +1,326 @@
+Sat Apr  5 23:08:19 2025: Error checking API status: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC9CC172E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Sat Apr  5 23:08:23 2025: Error loading USD file: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /A2F/USD/Load (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC9C9CC0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Sat Apr  5 23:08:27 2025: Error activating Stream LiveLink: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /A2F/Exporter/ActivateStreamLivelink (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC9C9CCE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Sat Apr  5 23:08:32 2025: Error enabling audio stream: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /A2F/Exporter/SetStreamLivelinkSettings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC9CC17520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Sat Apr  5 23:08:36 2025: Error setting looping to false: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /A2F/Player/SetLooping (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC9CC15F60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-06 00:39:53: VLC_INSTALL_PATH not found: C:/VLC # Only needed for Windows direct run
+2025-04-06 00:39:56: Initial A2F setup failed: 'str' object has no attribute 'get'
+2025-04-06 00:39:56: GROQ_API_KEY not found.
+2025-04-06 00:43:16: VLC_INSTALL_PATH not found: C:/VLC # Only needed for Windows direct run
+2025-04-06 00:43:19: Initial A2F setup failed: 'str' object has no attribute 'get'
+2025-04-06 00:43:47: VLC_INSTALL_PATH not found: C:/VLC # Only needed for Windows direct run
+2025-04-06 00:43:50: Initial A2F setup failed: 'str' object has no attribute 'get'
+2025-04-06 00:44:42: VLC_INSTALL_PATH not found: C:/VLC # Only needed for Windows direct run
+2025-04-06 00:44:45: Initial A2F setup failed: 'str' object has no attribute 'get'
+2025-04-06 01:22:37: VLC_INSTALL_PATH not found: C:/VLC # Only needed for Windows direct run
+2025-04-06 01:22:40: A2F setup failed: 'str' object has no attribute 'get'
+Sun Apr  6 02:47:50 2025: GROQ_API_KEY not set.
+2025-04-06 14:40:37: Connection refused by A2F API at http://localhost:8011
+2025-04-06 14:40:37: Fatal error starting continuous emotion detection: name 'FER' is not defined
+2025-04-06 14:40:38: Emotion detection thread failed to start.
+2025-04-06 14:40:55: Connection refused by A2F API at http://localhost:8011
+2025-04-06 14:41:01: Connection refused by A2F API at http://localhost:8011
+2025-04-06 14:41:19: Connection refused by A2F API at http://localhost:8011
+2025-04-06 14:43:01: Fatal error starting continuous emotion detection: name 'FER' is not defined
+2025-04-06 14:43:02: Emotion detection thread failed to start.
+2025-04-06 14:51:37: Fatal error starting continuous emotion detection: name 'FER' is not defined
+2025-04-06 14:51:38: Emotion detection thread failed to start.
+2025-04-06 15:02:45: Fatal error starting continuous emotion detection: name 'FER' is not defined
+2025-04-06 15:02:46: Emotion detection thread failed to start.
+Mon Apr  7 00:03:53 2025: Error initializing FER: name 'FER' is not defined
+Mon Apr  7 00:04:08 2025: Error invoking LLM chain: "Input to ChatPromptTemplate is missing variables {'chat_history'}.  Expected: ['chat_history', 'human_input'] Received: ['human_input']\nNote: if you intended {chat_history} to be part of the string and not a variable, please escape it with double curly braces like: '{{chat_history}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+2025-04-07 00:18:12: Critical Error loading TTS model: name 'init_empty_weights' is not defined
+2025-04-07 00:18:17: Critical Error loading TTS model: name 'init_empty_weights' is not defined
+2025-04-07 00:21:08: Error invoking LLM chain: "Input to ChatPromptTemplate is missing variables {'chat_history'}.  Expected: ['chat_history', 'human_input'] Received: ['human_input']\nNote: if you intended {chat_history} to be part of the string and not a variable, please escape it with double curly braces like: '{{chat_history}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+2025-04-12 00:25:33: Error loading LTM Ontology: Cannot download 'http://test.org/knowledge_base.owl'!
+Traceback (most recent call last):
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 975, in send
+    self.connect()
+  File "D:\Apps\python-3.10\lib\http\client.py", line 941, in connect
+    self.sock = self._create_connection(
+  File "D:\Apps\python-3.10\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\Apps\python-3.10\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 973, in load
+    fileobj = urllib.request.urlopen(url or f)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 89, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_IRI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 981, in load
+    raise OwlReadyOntologyParsingError("Cannot download '%s'!" % (url or f))
+owlready2.base.OwlReadyOntologyParsingError: Cannot download 'http://test.org/knowledge_base.owl'!
+
+2025-04-12 00:25:34: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:13:38: Error loading LTM Ontology: Cannot download 'http://test.org/knowledge_base.owl'!
+Traceback (most recent call last):
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 975, in send
+    self.connect()
+  File "D:\Apps\python-3.10\lib\http\client.py", line 941, in connect
+    self.sock = self._create_connection(
+  File "D:\Apps\python-3.10\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\Apps\python-3.10\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 973, in load
+    fileobj = urllib.request.urlopen(url or f)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 89, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_IRI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 981, in load
+    raise OwlReadyOntologyParsingError("Cannot download '%s'!" % (url or f))
+owlready2.base.OwlReadyOntologyParsingError: Cannot download 'http://test.org/knowledge_base.owl'!
+
+2025-04-12 02:13:39: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:25:33: Error loading LTM Ontology: Cannot download 'http://test.org/knowledge_base.owl'!
+Traceback (most recent call last):
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 975, in send
+    self.connect()
+  File "D:\Apps\python-3.10\lib\http\client.py", line 941, in connect
+    self.sock = self._create_connection(
+  File "D:\Apps\python-3.10\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\Apps\python-3.10\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 973, in load
+    fileobj = urllib.request.urlopen(url or f)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 89, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_IRI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 981, in load
+    raise OwlReadyOntologyParsingError("Cannot download '%s'!" % (url or f))
+owlready2.base.OwlReadyOntologyParsingError: Cannot download 'http://test.org/knowledge_base.owl'!
+
+2025-04-12 02:25:35: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:33:10: Error loading LTM Ontology: Cannot download 'http://test.org/knowledge_base.owl'!
+Traceback (most recent call last):
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "D:\Apps\python-3.10\lib\http\client.py", line 975, in send
+    self.connect()
+  File "D:\Apps\python-3.10\lib\http\client.py", line 941, in connect
+    self.sock = self._create_connection(
+  File "D:\Apps\python-3.10\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\Apps\python-3.10\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 973, in load
+    fileobj = urllib.request.urlopen(url or f)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "D:\Apps\python-3.10\lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 89, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_IRI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 981, in load
+    raise OwlReadyOntologyParsingError("Cannot download '%s'!" % (url or f))
+owlready2.base.OwlReadyOntologyParsingError: Cannot download 'http://test.org/knowledge_base.owl'!
+
+2025-04-12 02:33:11: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:36:42: Error loading LTM Ontology: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 89, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_IRI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 1007, in load
+    fileobj = open(f, "rb")
+OSError: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+
+2025-04-12 02:36:44: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:39:50: Error loading LTM Ontology: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 89, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_IRI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 1007, in load
+    fileobj = open(f, "rb")
+OSError: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+
+2025-04-12 02:39:51: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:42:22: Error loading LTM Ontology: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 90, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_IRI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 1007, in load
+    fileobj = open(f, "rb")
+OSError: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+
+2025-04-12 02:42:24: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:47:40: Error loading LTM Ontology: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\storage.py", line 138, in load_ltm_ontology
+    onto = world.get_ontology(LTM_ONTOLOGY_LOAD_URI).load()
+  File "D:\AGI\venv\lib\site-packages\owlready2\namespace.py", line 1007, in load
+    fileobj = open(f, "rb")
+OSError: [Errno 22] Invalid argument: '/D:/AGI/z_Backend/knowledge_base.owl'
+
+2025-04-12 02:47:42: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:49:31: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
+2025-04-12 02:59:34: Error generating LTM summary for prompt: 'NoneType' object has no attribute 'instances'
+Traceback (most recent call last):
+  File "D:\AGI\z_Backend\memory_manager.py", line 193, in get_ltm_summary
+    for individual in onto.UserFact.instances():
+AttributeError: 'NoneType' object has no attribute 'instances'
+
