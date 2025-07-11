@@ -113,80 +113,57 @@ The AGI Project’s **hybrid pipeline** seamlessly combines subsymbolic and symb
 
 ---
 
-## 📦 Setup & Installation
+📦 Setup & Installation
+Follow these steps to set up the AGI Project on your local machine:
 
-### **1. Clone Repository**
+🔧 1. Prerequisites
+✅ Ensure you have Python 3.8+ installed.
+✅ Install Git for cloning the repository.
+✅ (Optional) Create a virtual environment to manage dependencies:
 
-```bash
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate    # Linux/macOS
+venv\Scripts\activate       # Windows
+💻 2. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/your-username/agi-project.git
 cd agi-project
+📚 3. Install Dependencies
+Install all required packages listed in requirements.txt:
 
-2. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Configure Environment
-Update config.py with your API keys (Groq, weather, news).
+⚙️ 4. Configure Environment
+Update config.py:
 
-Ensure knowledge_base.owl is initialized or created.
+Add your Groq API key.
 
-4. Run Application
+Insert keys for weather, news, or other external services as needed.
+
+Initialize Ontology:
+
+Ensure knowledge_base.owl exists in the root directory.
+
+If missing, create it using your ontology schema.
+
+🚀 5. Run the Application
+Start the Flask server:
+
 bash
 Copy
 Edit
 python app.py
-5. Access Web Interface
-Open your browser at http://localhost:5000.
+🌐 6. Access the Web Interface
+Open your browser and navigate to:
 
-🤝 Contributing
-We welcome contributions to make AGI Project stronger:
+http://localhost:5000
 
-Fork the repo.
-
-Create a feature branch:
-
-bash
-Copy
-Edit
-git checkout -b feature/your-feature
-Commit your changes:
-
-bash
-Copy
-Edit
-git commit -m "Add your feature"
-Push to branch:
-
-bash
-Copy
-Edit
-git push origin feature/your-feature
-Open a Pull Request.
-
-Please follow our coding standards and include relevant tests.
-
-📜 License
-This project is licensed under the MIT License. See LICENSE for details.
-
-📬 Contact
-For questions or feedback, open a GitHub Issue or contact the project maintainers.
-
-Built with ❤️ by the AGI Project Team.
-Creating agentic, hybrid intelligence for tomorrow.
-
-markdown
-Copy
-Edit
-
----
-
-### ✅ **Key Enhancements**
-
-- Structured with **minimalist headers** for quick scanning.  
-- **Agentic voice** (calls to action, purpose clarity).  
-- Tables and checklists for **professional readability**.  
-- Emojis and visual spacing for **modern GitHub README aesthetics**.  
-- Future-ready to integrate badges and pipeline status.
-
-Let me know if you want to **add CI/CD badges**, **demo screenshots**, or **architecture diagrams** t
+✅ Setup Complete
+You’re now ready to experience your Hybrid AGI Conversational Assistant in action. 🎯
