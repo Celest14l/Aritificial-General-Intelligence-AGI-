@@ -32,7 +32,7 @@ LTM_ONTOLOGY_IDENTITY_IRI = "http://test.org/knowledge_base.owl"
 
 
 # --- API Keys & Service URLs ---
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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") # Replace placeholder
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") # Replace placeholder
 NEWS_SERVICE_URL = os.getenv("NEWS_SERVICE_URL", "http://localhost:5000/news")
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASS = os.getenv("EMAIL_PASS")
