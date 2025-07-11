@@ -41,7 +41,7 @@ app = Flask(__name__, template_folder='.', static_folder='static')
 
 # --- Environment Variables & Configuration ---
 load_dotenv(dotenv_path="pass.env")
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY", "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") # Replace placeholder if not in .env
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY") # Replace placeholder if not in .env
 
 # Directories and Files
 BASE_DIR = r"D:\AGI" # Directory where app.py is located
